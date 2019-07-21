@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="HintText" parent="AppTheme">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="HelperText" parent="AppTheme">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="LoginCreateText" parent="AppTheme">
+        <item name="android:textSize">@dimen/login_buttons_text_size</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="LoginCreateTextButton" parent="AppTheme">
+        <item name="android:textSize">@dimen/login_buttons_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="SubHeader" parent="AppTheme">
+        <item name="android:textSize">@dimen/lv_header_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Header" parent="AppTheme">
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ItemText" parent="AppTheme">
+        <item name="android:textSize">@dimen/item_text_size</item>
+        <item name="android:layout_margin">@dimen/activity_vertical_margin</item>
+    </style>
+
+
+</resources>
